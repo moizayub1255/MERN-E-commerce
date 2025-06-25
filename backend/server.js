@@ -30,9 +30,7 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
 app.use("/api/v1/product", productRoutes);
 
-export default function handler(req, res) {
-  res.status(200).json({ message: "Backend is working!" });
-}
+
 
 
 //rest api

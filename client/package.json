@@ -1,6 +1,5 @@
 {
   "name": "client",
-  "proxy": "https://real-wali-ecommerce-nq9j.vercel.app",
 
   "version": "0.1.0",
   "private": true,

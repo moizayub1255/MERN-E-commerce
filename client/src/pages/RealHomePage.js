@@ -15,7 +15,7 @@ const RealHomePage = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("/api/v1/product/get-product");
+        const response = await fetch(`${process.env.REACT_APP_API_URL}/api/v1/product/get-product`);
         const data = await response.json();
         setProducts(data.products);
       } catch (error) {

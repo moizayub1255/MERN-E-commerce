@@ -3,7 +3,6 @@ import Layout from "./../components/Layout/Layout";
 import { useCart } from "../context/cart";
 import { useAuth } from "../context/auth";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 import toast from "react-hot-toast";
 import "../styles/CartStyles.css";
 import { Modal, Button, Form } from "react-bootstrap"; // Import Modal and Form components

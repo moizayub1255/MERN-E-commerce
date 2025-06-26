@@ -83,7 +83,5 @@ GET    /api/v1/products
 GET    /api/v1/categories
 POST   /api/v1/orders
 
-✍️ Author
-👨‍💻 Developed by Moiz Ayub
-📧 moizayub1255@gmail.com
-📱 WhatsApp
+
+

@@ -53,35 +53,54 @@ An advanced MERN stack e-commerce platform where users can explore products, add
 ```bash
 # Clone the repo
 https://github.com/moizayub1255/MERN-E-commerce.git
+```
 
 # Backend setup
+```sh
 cd backend
 npm install
 npm run dev
+```
 
 # Frontend setup
+```sh
 cd client
 npm install
 npm run dev
+```
 
-backend .env
+### Backend .env
+```sh
 PORT= 
 DEV_MODE =
 MONGO_URL = 
 JWT_SECRET = 
 BRAINTREE_MERCHANT_ID = 
 BRAINTREE_PUBLIC_KEY = 
-BRAINTREE_PRIVATE_KEY = 
+BRAINTREE_PRIVATE_KEY =
+```
 
-frontend .env
+### Frontend .env
+```sh
 REACT_APP_API_URL= 
+```
 
+## Deployment
+- Deployment is planned on **Vercel**.
+- The repository is hosted on **GitHub**.
+---
 
-POST   /api/v1/auth/register
-POST   /api/v1/auth/login
-GET    /api/v1/products
-GET    /api/v1/categories
-POST   /api/v1/orders
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss the proposed changes.
+
+---
+
+## License
+This project is licensed under the MIT License.
+---
+
+Feel free to contribute and improve the project!
+
 
 
 
